@@ -34,3 +34,8 @@ For more Information see [License](./LICENSE).
 1. Open `cmd` as an administrator
 1. `bcdedit.exe /set recoveryenabled NO`
 1. Reenable with: `bcdedit.exe /set recoveryenabled YES`
+
+## Enable Windows Subsystem for Linux 2 (WSL 2)
+1. Open PowerShell as an administrator
+1. `wsl --set-default-version 2`
+1. `wsl --set-default ubuntu`
