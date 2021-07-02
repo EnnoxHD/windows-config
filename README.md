@@ -17,3 +17,7 @@ SOFTWARE.
 For more Information see [License](./LICENSE).
 
 ---
+
+## Disable hibernate energy state
+1. Open `cmd` as an administrator
+1. `powercfg -h off`
