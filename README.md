@@ -39,3 +39,10 @@ For more Information see [License](./LICENSE).
 1. Open PowerShell as an administrator
 1. `wsl --set-default-version 2`
 1. `wsl --set-default ubuntu`
+
+## Windows Upgrade with VeraCrypt encrypted system drive
+1. Download a Windows ISO file with the Media Creation Tool
+1. Unpack the ISO file onto an USB drive (e.g. via 7zip)
+1. Open PowerShell as an administrator
+1. Navigate to the USB drive
+1. `setup.exe /ReflectDrivers "C:\Program Files\VeraCrypt" /PostOOBE C:\ProgramData\VeraCrypt\SetupComplete.cmd`
