@@ -45,4 +45,4 @@ For more Information see [License](./LICENSE).
 1. Unpack the ISO file onto an USB drive (e.g. via 7zip)
 1. Open PowerShell as an administrator
 1. Navigate to the USB drive
-1. `setup.exe /ReflectDrivers "C:\Program Files\VeraCrypt" /PostOOBE C:\ProgramData\VeraCrypt\SetupComplete.cmd`
+1. `.\setup.exe /ReflectDrivers "C:\Program Files\VeraCrypt" /PostOOBE "C:\ProgramData\VeraCrypt\SetupComplete.cmd"`
